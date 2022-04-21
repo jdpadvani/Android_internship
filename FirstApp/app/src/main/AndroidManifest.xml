@@ -10,7 +10,6 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -26,17 +25,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstApp">
-        <activity android:name=".MapActivity">
+        <activity android:name=".JsonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AlarmActivity">
-
+        <activity android:name=".MapActivity">
         </activity>
-        <activity android:name=".CustomPopup"></activity>
+        <activity android:name=".AlarmActivity"></activity>
+        <activity android:name=".CustomPopup" />
         <activity android:name=".NotificationActivity" />
         <activity android:name=".NextPageActivity" />
         <activity android:name=".ServiceActivity" />
@@ -49,7 +47,6 @@
             android:name=".NetworkChangeReceiver"
             android:enabled="true">
             <intent-filter>
-
                 <!-- Intent filters for broadcast receiver -->
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
@@ -58,7 +55,7 @@
                 <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".MyBroadcastReceiver"></receiver>
+        <receiver android:name=".MyBroadcastReceiver" />
 
         <activity android:name=".BroadcastActivity" />
         <activity android:name=".LinkifyActivity" />

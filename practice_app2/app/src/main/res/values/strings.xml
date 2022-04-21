@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">practice_app2</string>
+    <string name="invalid_name">Enter valid name</string>
+    <string name="invalid_Email">Enter the valid mail</string>
+    <string name="invalid_Number">Enter the valid number</string>
+    <string name="invalid_Password">Enter the valid password</string>
+</resources>

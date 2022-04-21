@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <Button
+        android:id="@+id/btnimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Please select image"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_gravity="center"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"
+        android:hint="Enter the First name"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnimg"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/lname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Last name"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtemail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Email address"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lname" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtmb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the mobile number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:padding="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtemail"
+
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtps"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtmb"
+
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/dob"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date of Birth (DD/MM/YYYY)"
+        android:padding="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtps"
+
+        />
+    <Button
+        android:id="@+id/btnrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dob"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_gravity="center"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

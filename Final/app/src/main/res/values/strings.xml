@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="invalid_name">Enter Valid name</string>
+    <string name="invalid_Email">Enter valid Email</string>
+    <string name="invalid_Number">Enter valid Number</string>
+    <string name="invalid_Password">Enter Valid Password</string>
+</resources>

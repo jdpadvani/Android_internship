@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <string name="invalid_Email">Enter Valid mail</string>
+    <string name="invalid_Password">Enter Valid Password</string>
+    <string name="invalid_name">Enter the first name</string>
+    <string name="invalid_Number">Enter the mobile number</string>
+    <string name="Invalid_Date">Enter Date</string>
+</resources>
